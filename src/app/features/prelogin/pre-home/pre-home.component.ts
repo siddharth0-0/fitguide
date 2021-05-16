@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ShareInfoService } from 'src/app/common/providers/share-info.service';
 
 @Component({
   selector: 'app-pre-home',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PreHomeComponent implements OnInit {
 
-  constructor() { }
+  
+
+  constructor( private  _shareInfoService : ShareInfoService ) { }
 
   ngOnInit(): void {
   }
-
+  
+  onLogin() {
+    this._shareInfoService.setModal({
+      isShowModal: true,
+      openModalFor: 1,
+    });
+    console.log('home',this._shareInfoService.setModal)
+  }
 }

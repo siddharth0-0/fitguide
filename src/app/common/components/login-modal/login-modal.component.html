@@ -1,1 +1,27 @@
-<p>login-modal works!</p>
+<div class="modal-background"  *ngIf="isShowModal == true">
+    <div class="modal-box">
+        <div class="modal-wrapper">
+            <div class="content-wrapper">
+                <div class="left-wrapper">
+                    <img src="../../../../assets/img/log.png" alt="">
+                </div>
+                <div class="right-wrapper">
+                    <div class="login-head">
+                        <h2>Welcome to Fitguide</h2>
+                    </div>
+                    <div class="input-area">
+                        <div class="in-feild">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="in-feild">
+                            <input type="password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button>Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
