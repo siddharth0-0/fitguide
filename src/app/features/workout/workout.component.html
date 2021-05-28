@@ -1,0 +1,128 @@
+<header>
+    <h4>FitGuide</h4>
+    <nav>
+        <ul class="nav-link">
+            <li><a (click) = "onHome()">Home</a></li>
+            <li><a href="">About</a></li>  
+        </ul>
+    </nav>
+    <div class="btn-grp">
+        <button (click) = "onLogin()" type="button">Login</button>
+        <button (click) = "onSignUp()">Sign Up</button>
+    </div>
+</header>
+
+<div class="container">
+    <section class="wel-img">
+        <div class="img-area">
+            <img src="../../../assets/img/welcomee.png" alt="">
+        </div>
+        <div class="text-area">
+            <h2>“Yoga is a light, which once lit will never dim. The better your practice, the brighter your flame.”<br> ~~ B.K.S. Iyengar</h2>
+        </div>
+        <div class="custom-shape-divider-bottom-1622102515">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="intro-wrapper">
+            <div class="circle-md"></div>
+            <div class="intro-content">
+                <div class="intro-head">
+                    <h2>Workout</h2>
+                </div>
+                <div class="intro-text">
+                    <div class="yoga-intro">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda amet, fugit suscipit consectetur soluta obcaecati reprehenderit eum. Dignissimo.</h4>
+                        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea iure, deserunt necessitatibus id, suscipit nesciunt inventore eius beatae eos magni velit accusamus fugit, illum nostrum. Ipsum ratione tenetur facere aliquid!</h5>
+                    </div>
+                    <div class="stick-back">
+                        <img src="../../../assets/img/sticks.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="activites">
+        <div class="act-header">
+            <h2>Main Programm</h2>
+        </div>
+        <div class="act-wrapper">
+            <div class="program-head" (click)="showFirstWeek()">
+                <h3>Week 1</h3>
+                <h1> + </h1>
+            </div>
+            <div class="program-content" *ngIf = "firstContent" >
+                <div class="pose-card" *ngFor = "let pose of firstWeek; let i = index">
+                    <div class="pose-img">
+                        <img [src]="pose.image" alt="">
+                    </div>
+                    <div class="pose-title">
+                        <h4>{{pose.title}}</h4>
+                        <button (click) = "clickWeek(0,i)">Try It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="act-wrapper">
+            <div class="program-head" (click)="showSecWeek()">
+                <h3>Week 2</h3>
+                <h1> + </h1>
+            </div>
+            <div class="program-content" *ngIf = "secContent">
+                <div class="pose-card" *ngFor = "let pose of secondWeek; let i = index">
+                    <div class="pose-img">
+                        <img [src]="pose.image" alt="">
+                    </div>
+                    <div class="pose-title">
+                        <h4>{{pose.title}}</h4>
+                        <button (click) = "clickWeek(1,i)">Try It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="act-wrapper">
+            <div class="program-head" (click)="showThirdWeek()">
+                <h3>Week 3</h3>
+                <h1> + </h1>
+            </div>
+            <div class="program-content" *ngIf = "thirdContent">
+                <div class="pose-card" *ngFor = "let pose of thirdWeek; let i = index">
+                    <div class="pose-img">
+                        <img [src]="pose.image" alt="">
+                    </div>
+                    <div class="pose-title">
+                        <h4>{{pose.title}}</h4>
+                        <button (click) = "clickWeek(2,i)">Try It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="act-wrapper">
+            <div class="program-head" (click)="showFourthWeek()">
+                <h3>Week 4</h3>
+                <h1> + </h1>
+            </div>
+            <div class="program-content" *ngIf = "fourthContent">
+                <div class="pose-card" *ngFor = "let pose of fourthWeek; let i = index">
+                    <div class="pose-img">
+                        <img [src]="pose.image" alt="">
+                    </div>
+                    <div class="pose-title">
+                        <h4>{{pose.title}}</h4>
+                        <button (click) = "clickWeek(3,i)">Try It</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

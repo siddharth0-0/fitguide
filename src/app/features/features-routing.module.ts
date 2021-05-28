@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PostloginModule } from './postlogin/postlogin.module';
-import { PreloginModule } from './prelogin/prelogin.module';
+import { HomeComponent } from './home/home.component';
+import { WorkoutComponent } from './workout/workout.component';
+import { YogaComponent } from './yoga/yoga.component';
+
 
 const routes: Routes = [
-  { path: '', loadChildren: () => PreloginModule },
-  { path: 'post', loadChildren: () => PostloginModule },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component :HomeComponent },
+  { path: 'yoga', component :YogaComponent },
+  { path: 'workout', component :WorkoutComponent },
 ];
 
 @NgModule({

@@ -11,11 +11,24 @@ export class ShareInfoService {
     openModalFor: number;
   }>({isShowModal: false , openModalFor: 0});
 
+  public showProgramModal = new Subject<{
+    isShowModal: boolean;
+    modalMedia : string;
+    mediaDescription : string;
+    modalFor : number;
+  }>();
+
+
+
   constructor() { }
 
   // to show modal
   public setModal(value : {isShowModal: boolean; openModalFor: number;} ) {
     this.showModal.next(value);
     console.log('data',value)
+  }
+
+  public setProgramModal(value : {isShowModal: boolean; modalMedia : string; mediaDescription : string;  modalFor : number;}){
+    this.showProgramModal.next(value)
   }
 }

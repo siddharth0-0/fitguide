@@ -1,6 +1,5 @@
-<div class="modal-background"  *ngIf="isShowModal == true">
-    <div class="modal-box">
-        <div class="modal-wrapper">
+<div class="modal-wrapper" *ngIf="isShowModal == true">
+    <div class="login-box" *ngIf = "_openFor === 1">
             <div class="content-wrapper">
                 <div class="left-wrapper">
                     <img src="../../../../assets/img/log.png" alt="">
@@ -22,6 +21,42 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
+
+    <div class="modal-background" *ngIf="isShowModal == true" (click) = "onCloseModal()"></div>
+
+    <div class="signin-box"  *ngIf = "_openFor === 2">
+            <div class="content-wrapper">
+                <div class="left-wrapper">
+                    <img src="../../../../assets/img/sign.png" alt="">
+                </div>
+                <div class="right-wrapper">
+                    <div class="login-head">
+                        <h2>Welcome to Fitguide</h2>
+                    </div>
+                    <div class="input-area">
+                        <div class="in-feild">
+                            <input type="text" placeholder="First Name">
+                        </div>    
+                        <div class="in-feild">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="in-feild">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="in-feild">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="in-feild">
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="modal-background" (click) = "onCloseModal()"></div>
 </div>

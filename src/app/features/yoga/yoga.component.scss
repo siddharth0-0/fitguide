@@ -1,0 +1,228 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    .nav-link{
+        li{
+            display: inline-block;
+            padding: 0px 20px;
+            font-size: 16px;
+        }
+    }
+    h4{
+        padding: 9px 25px;
+        font-weight: 500;
+        font-size: 16px;  
+    }
+    .btn-grp{
+        display: inline-block;
+        button{
+            border-radius: 50px;
+            padding: 9px 25px;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            background-image: linear-gradient(to right bottom, #b39cd0, #a88ccd, #9c7dc9, #906dc6, #845ec2);
+            font-size: 14px;  
+            margin: 0px 10px;
+        }
+    }
+}
+
+.container{
+    box-sizing: border-box;
+    background-size: cover;
+    .wel-img{
+        background-image: linear-gradient(to left top, #346b7a, #22828f, #009a9d, #00b2a6, #15c9a8);
+        width: 100vw;
+        height: 90vh;
+        padding: 10px;
+        .img-area{
+            text-align: center;
+            margin: 20px 0px;
+        }
+        .text-area{
+            text-align: center;
+          
+            h2{
+                margin: 20px 0px;
+                letter-spacing: 1px;
+                font-weight: 600;
+                font-size: 26px;
+            }
+        }
+        .custom-shape-divider-bottom-1622102515 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+        
+        .custom-shape-divider-bottom-1622102515 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 99px;
+        }
+        
+        .custom-shape-divider-bottom-1622102515 .shape-fill {
+            fill: #FFFFFF;
+        }
+ 
+    }
+
+    .intro{
+        width: 100vw;
+        height: 75vh;
+        .intro-wrapper{
+            padding: 10px;
+            position: relative;
+            .circle-md{
+                position: absolute;
+                left: 10%;
+                top: 15%;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                background-color: aquamarine;
+                box-shadow: 0px 3px 8px #aaa;
+                opacity: 0.4;
+            }
+        }
+
+        .intro-content{
+            display: flex;
+            justify-content: space-around;
+            .intro-head{
+                margin-left: 20px;
+                text-align: center;
+                width: 35%;
+                h2{
+                    font-weight: 700;
+                    line-height: 90px;
+                    font-size:30px;
+                    color: burlywood;
+                }
+            }
+
+            .intro-text{
+                width: 50%;
+                position: relative;
+                padding: 10px;
+                .yoga-intro{
+                    line-height: 45px;
+                    padding: 15px;
+                    h4{
+                        padding: 15px;
+                        font-weight: 600;
+                        font-size: 24px;
+                        color: burlywood;
+                        letter-spacing: 1.5px;
+                    }
+                    h5{
+                        padding: 15px;
+                        font-weight: 600;
+                        font-size: 21px;
+                        color: burlywood;
+                        letter-spacing: 1.2px;  
+                    }
+                }
+                .stick-back{
+                    position: absolute;
+                    top: 25%;
+                    right: 15%;
+                    img{
+                        opacity: 0.4;
+                    }
+                }
+            }
+        }
+    }
+
+    .activites{
+        padding: 5px;
+        width: 100vw;
+        .act-header{
+            text-align: center;
+        }
+        .act-wrapper{
+            width: 100%;
+            margin: 2.5rem 0rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .program-head{
+                background-image: linear-gradient(to right, #fc9d0c, #ff9e3b, #ffa158, #ffa671, #ffac88);
+                width: 55%;
+                border-radius: 10px;
+                height: 3rem;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h3{
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+                h1{
+                    font-weight: 600;
+                    margin-right: 25px;
+                    cursor: pointer;
+                }
+            }
+            .program-content{
+                width: 100vw;
+                padding: 15px;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                .pose-card{
+                    width: 35%;
+                    box-shadow:  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+                    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    // border: 3px solid #d7e0df;
+                    border-radius: 15px;
+                    margin: 20px 15px;
+                    .pose-img{
+                        width: 75%;
+                        object-fit: fill;
+                        background-color: #a385bd;
+                        img{
+                            width: 100%;
+                            object-fit: fill;
+                            height: 250px;
+                        }
+
+                    }
+                    .pose-title{
+                        width: 25%;
+                        text-align: center;
+                        line-height: 60px;
+                        h4{
+                            font-weight: 600;
+                            font-size: 16px;
+                            
+                        }
+                        button{
+                            height: 22px;
+                            background: #fc9d0c;
+                            cursor: pointer;
+                            border-radius: 8px;
+                            border: none;
+                            width: 80%;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

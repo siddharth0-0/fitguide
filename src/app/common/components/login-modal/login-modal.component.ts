@@ -11,19 +11,26 @@ export class LoginModalComponent implements OnInit, OnDestroy {
 
   isShowModal :boolean = false;
   public _modalObserver: Subscription;
-  // _openFor  = null;
+  public _openFor  : number = 0;
   
   constructor(private  _shareInfoService : ShareInfoService ) {
-    console.log("ngon");
-    this._modalObserver = this._shareInfoService.showModal.subscribe({ next: (data) =>{
-     console.log("modal",data);
-     this.isShowModal = data.isShowModal;
-
-   }});
-   }
+    this._modalObserver = this._shareInfoService.showModal.subscribe( (data) =>{
+    this.isShowModal = data.isShowModal;
+    if(data.openModalFor == 1){
+      this._openFor = data.openModalFor
+    }
+    else if(data.openModalFor == 2){
+      this._openFor = data.openModalFor
+    }
+   });
+  }
   
   ngOnInit(): void {
 
+  }
+
+  onCloseModal(){
+    this.isShowModal = false;
   }
 
   ngOnDestroy(){
