@@ -1,0 +1,24 @@
+<div class="navbar-container">
+    <div class="navbar-wrapper">
+        <div class="logo-container">
+            <h4>Fitguide</h4>
+        </div>
+        <div class="link-container">
+            <div class="link-item" (click) = "navigateTo(0)" [ngClass]="{'active': activeNav === 0}">
+                <a class="link">Home</a>
+            </div>
+            <div class="link-item" (click) = "navigateTo(1)" [ngClass]="{'active': activeNav === 1}">
+                <a class="link">Diet</a>
+            </div>
+            <div class="link-item"   (click) = "navigateTo(2)" [ngClass]="{'active': activeNav === 2}">
+                <a class="link">About</a>
+            </div>
+        </div>
+        <div class="button-container">
+                <button (click)="onLogin()">Login</button>
+
+                <button (click)="onSignUp()">SignUp</button>
+        </div>
+    </div>
+</div>
+

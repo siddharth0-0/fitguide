@@ -22,4 +22,15 @@
             </div>
         </div>
     </div>
+
+    <div class="yoga-pose-box" *ngIf = "_openFor == 2">
+        <div class="pose-content">
+            <div class="pose-img">
+                <video src="{{_modalMedia}}" autoplay loop></video>
+            </div>
+            <div class="pose-description">
+                <h3>{{_mediaDescription}}</h3>
+            </div>
+        </div>
+    </div>
 </div>

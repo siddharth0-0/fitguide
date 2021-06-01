@@ -1,0 +1,76 @@
+<div class="card-wrapper">
+    <div class="card-area">
+        <div class="card" (click) = "onWeightLoss()">
+            <div class="card-img">
+                <img src="../../../assets/img/wl.png" alt="">
+            </div>
+
+            <div class="card-title">
+                <h3> Weight Loss</h3>
+            </div>
+        </div>
+
+        <div class="card" (click) = "onWeightGain()">
+            <div class="card-img">
+                <img src="../../../assets/img/wg.png" alt="">
+            </div>
+
+            <div class="card-title">
+                <h3> Weight Gain</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="diet-container">
+
+    <section class="wl-sec" *ngIf = "showWl == true" id="wlSec">
+
+        <div class="wl-page" >
+            <div class="wl-head">
+                <h3>Weight Loss Diet</h3>
+            </div>
+
+            <div class="wl-day" *ngFor = "let item of wlDiet">
+                <div class="head-day">
+                    <h4><strong>{{item.day}}</strong></h4>
+                </div>
+                <div class="day-content">
+                    <ul>
+                        <li><span>Breakfast : </span>{{item.breakfast}}</li>
+                        <li><span>Lunch : </span>{{item.lunch}}</li>
+                        <li><span>Snacks : </span>{{item.snacks}}</li>
+                        <li><span>Dinner : </span>{{item.dinner}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="wg-sec" *ngIf = "showWg == true" id="wgSec">
+
+        <div class="wg-page">
+            <div class="wg-head">
+                <h3>Weight Gain Diet</h3>
+            </div>
+
+            <div class="wg-day" *ngFor = "let item of wgDiet">
+                <div class="head-day">
+                    <h4><strong>{{item.day}}</strong></h4>
+                </div>
+                <div class="day-content">
+                    <ul>
+                        <li><span>Breakfast : </span>{{item.breakfast}}</li>
+                        <li><span>Lunch : </span>{{item.lunch}}</li>
+                        <li><span>Snacks : </span>{{item.snacks}}</li>
+                        <li><span>Dinner : </span>{{item.dinner}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+

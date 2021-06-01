@@ -1,16 +1,4 @@
-<header>
-    <h4>FitGuide</h4>
-    <nav>
-        <ul class="nav-link">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>  
-        </ul>
-    </nav>
-    <div class="btn-grp">
-        <button (click) = "onLogin()" type="button">Login</button>
-        <button (click) = "onSignUp()">Sign Up</button>
-    </div>
-</header>
+<app-navbar></app-navbar>
 <div class="container">
 
     <div class="top-sec">
@@ -56,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="program-card">
+            <div class="program-card" (click) = "onYogaWorkout()">
                 <div class="program-img">
                     <img src="../../../../assets/img/yw.png" alt="">
                 </div>

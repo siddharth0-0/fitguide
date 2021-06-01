@@ -14,14 +14,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
-  onLogin() {
-    this._shareInfoService.setModal({
-      isShowModal: true,
-      openModalFor: 1,
-    });
-    console.log('home',this._shareInfoService.setModal)
-  }
 
   onSignUp(){
     this._shareInfoService.setModal({
@@ -35,7 +27,11 @@ export class HomeComponent implements OnInit {
   }
 
   onYoga(){
-    this._router.navigateByUrl('yoga');
+    // this._router.navigateByUrl('yoga');
+    this._router.navigate(['yoga']);
   }
 
+  onYogaWorkout(){
+    this._router.navigateByUrl('yogaWorkout');
+  }
 }
