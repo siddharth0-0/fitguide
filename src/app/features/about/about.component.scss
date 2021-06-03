@@ -1,0 +1,174 @@
+.container{
+    box-sizing: border-box;
+    overflow-y: hidden;
+    background-size: cover;
+    .head-sec{
+        height: 90vh;
+        width: 100vw;
+        img{
+            height: 100%;
+            width: 100%;
+            // opacity: 0.8;
+            background-size: cover;
+            
+        }
+
+        .text-area{
+            position: absolute;
+            left: 75%;
+            top: 50%;
+            p{
+                color: whitesmoke;
+                font-weight: 700;
+                font-size: 45px;
+                z-index: 1000;
+                font-family: 'Poppins';
+            }
+        }
+    }
+
+    .mid-sec{
+        height: 100vh;
+        width: 100vw;
+        .mid-wrapper{
+            height: 100%;
+            display: flex;
+            .left-side{
+                width: 50%;
+                background-color: #ece6dd;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 2.5rem;
+                img{
+                    height: 500px;
+                    width: 500px;
+                }
+            }
+            .right-side{
+                width: 50%;
+                background-color: #4B4453;
+                color: #ece6dd;
+                padding: 7rem 4.5rem;
+                h2{
+                    font-size: 40px;
+                    font-weight: 600;
+                    font-family: "worksans", sans-serif;
+                }
+                hr{
+                    width: 70%;
+                    height: 2px;
+                    margin: 25px 0px;
+                }
+                p{
+                    font-size: 28px;
+                    margin: 35px 0px;
+                    font-family: 'poppins';
+                }
+            }
+        }
+    }
+
+    .last-sec{
+        height: 100vh;
+        width: 100vw;
+        background: #ece6da;
+        padding: 5.5rem 3.5rem;
+        .sec-title{
+            text-align: center;
+            color:#4B4453 ;
+            h2{
+                font-size: 35px;
+            }
+        }
+        .card-wrapper{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 15px;
+            margin-top: 4rem;
+            .card{
+                width: 300px;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                .name{
+                    color:#40424d ; 
+                    margin: 20px 0px;
+                }
+                .card-img{ 
+                  text-align: center;
+                    img{
+                        height: 250px;
+                        width: 250px;
+                        object-fit: fill;
+                        border-radius: 50%;
+                        background: whitesmoke;
+                    }
+                }
+                .card-review{
+                    text-align: center;
+                    color:#40424d ;
+                    margin: 20px 0px;
+                }
+            }
+            hr{
+                width: 2px;
+                background: #40424d;
+            }
+        }
+    }
+
+    .contact-sec{
+        width: 100vw;
+        height: 100vh;
+        .contact-wrapper{
+            display: flex;
+            height: 100%;
+            .left-side{
+                width: 50%;
+                background-color: #40424d;
+                color: #ece6dd;
+                padding: 7rem 4.5rem;
+                h2{
+                    font-size: 40px;
+                    font-weight: 600;
+                    font-family: "worksans", sans-serif;
+                }
+                hr{
+                    width: 70%;
+                    height: 2px;
+                    margin: 25px 0px;
+                }
+                .details{
+                    h4{
+                        font-size: 30px;
+                        font-weight: 700;
+                        margin: 25px 0px;
+                        color: #ece6dd;
+                        
+                    }
+                    p{
+                        color: #ece6dd;
+                        font-size: 20px;
+                        margin: 15px 0px;
+                        font-weight: 600;
+                        font-family: 'poppins';
+                    }
+                }
+            }
+            .right-side{
+                width: 50%;
+                background-color: #ece6dd;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 2.5rem;
+                img{
+                    height: 500px;
+                    width: 500px;
+                }
+            }
+
+        }
+    }
+}

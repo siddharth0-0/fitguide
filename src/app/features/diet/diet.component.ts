@@ -140,18 +140,16 @@ export class DietComponent implements OnInit {
 
     this.showWg =false;
     this.showWl =! this.showWl;
-    // setTimeout(() =>{
-    //   document.getElementById('wlSec')?.scrollIntoView({behavior:'smooth', inline: "center"});
-    // },300);
-    
+    setTimeout(() =>{
+      document.getElementById('wlSec')?.scrollIntoView({behavior:'smooth', inline: "center"});
+    },300);
   }
 
   onWeightGain(){
     this.showWl = false;
     this.showWg = !this.showWg;
-    // setTimeout(() =>{
-    //   document.getElementById('wgSec')?.scrollIntoView({ behavior: 'smooth' });
-    // },300);
-    //
+    setTimeout(() =>{
+      document.getElementById('wgSec')?.scrollIntoView({ behavior: 'smooth' });
+    },300);
   }
 }
