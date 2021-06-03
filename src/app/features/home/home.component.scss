@@ -288,7 +288,7 @@
 
     .mentor-sec{
         width: 100vw;
-        height: 80vh;
+        height: 100%;
         padding: 15px;
         .mentor-head{
             text-align: center;
@@ -325,33 +325,6 @@
                 }
                
             }
-        }
-    }
-}
-footer{
-    display: flex;
-    background-color: black;
-    padding: 20px;
-    .leftpart{
-        width: 33%;
-        text-align: left;
-        color: #a385bd;
-        letter-spacing: 3px;
-    }
-    .midpart{
-        width: 33%;
-        text-align: center;
-        h4{
-            color: #a385bd;
-            letter-spacing: 3px;
-        }
-    }
-    .rightpart{
-        width: 33%;
-        text-align: center;
-        h3{
-            color: #a385bd;
-            letter-spacing: 3px;
         }
     }
 }

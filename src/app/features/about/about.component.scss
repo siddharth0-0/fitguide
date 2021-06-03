@@ -9,8 +9,7 @@
             height: 100%;
             width: 100%;
             // opacity: 0.8;
-            background-size: cover;
-            
+            background-size: cover;       
         }
 
         .text-area{
@@ -22,6 +21,7 @@
                 font-weight: 700;
                 font-size: 45px;
                 z-index: 1000;
+                letter-spacing: 1.2px;
                 font-family: 'Poppins';
             }
         }
@@ -70,7 +70,7 @@
     }
 
     .last-sec{
-        height: 100vh;
+        height: 100%;
         width: 100vw;
         background: #ece6da;
         padding: 5.5rem 3.5rem;
@@ -84,6 +84,7 @@
         .card-wrapper{
             display: flex;
             justify-content: space-evenly;
+            flex-wrap: wrap;
             padding: 15px;
             margin-top: 4rem;
             .card{
