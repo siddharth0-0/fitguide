@@ -22,32 +22,32 @@ export class WorkoutComponent implements OnInit {
   firstWeek = [
     {
       title : 'PushUps',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pushups.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pushups.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pushups.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pushups.mp4',
       description :'On floor position your hands slightly wider than your shoulders.Keep a tight core throughout the entire push-up. Inhale as you slowly bend your elbows and lower yourself until your elbows are at a 90-degree angle.Exhale as you begin contracting your chest muscles and pushing back up through your hands to the start position'
     },
     {
       title : 'Squats',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/squat.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/squat.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/squat.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/squat.mp4',
       description : 'Find a foot stance that feels best for you. Pointing your toes slightly outwards helps.Start by putting your feet shoulder-width apart and pointed about 15 degrees outwards.Tense your abs.“Sit back” – make sure to move your butt backward,Be careful to keep your knees in line with your toes.'
     },
     {
       title : 'Lunges',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/lunges.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/lunges.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/lunges.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/lunges.mp4',
       description : 'Start by standing up tall.Step forward with one foot until your leg reaches a 90-degree angle. ...Lift your front lunging leg to return to the starting position.'
     },
     {
       title : 'Plank',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/plankw.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/plankw.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/plankw.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/plankw.mp4',
       description : 'Reach heels back as you lengthen the crown of your head forward. Ground down into hands, pushing the floor away beneath you. Lengthen through the arms and broaden your chest.'
     },
     {
       title : 'Crunches',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.mp4',
       description : 'Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.Exhale and lift your upper body, keeping your head and neck relaxed.Inhale and return to the starting position.'
     },
   ]
@@ -55,32 +55,32 @@ export class WorkoutComponent implements OnInit {
   secondWeek= [
     {
       title : 'Squats',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/squat.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/squat.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/squat.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/squat.mp4',
       description : 'Find a foot stance that feels best for you. Pointing your toes slightly outwards helps.Start by putting your feet shoulder-width apart and pointed about 15 degrees outwards.Tense your abs.“Sit back” – make sure to move your butt backward,Be careful to keep your knees in line with your toes.'
     },
     {
       title : 'PushUps',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pushups.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pushups.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pushups.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pushups.mp4',
       description :'On floor position your hands slightly wider than your shoulders.Keep a tight core throughout the entire push-up. Inhale as you slowly bend your elbows and lower yourself until your elbows are at a 90-degree angle.Exhale as you begin contracting your chest muscles and pushing back up through your hands to the start position'
     },
     {
       title : 'Triceps Dips',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/dips.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/dips.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/dips.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/dips.mp4',
       description : 'Grip the front edges of a chair or bench with your hand. Hover your butt just off and in front of the seat, feet flat, and legs bent so thighs are parallel to the floor. Straighten your arms. ... Lower your body toward the floor until your arms form 90-degree angles.Then, engage your triceps to press back to start.'
     },
     {
       title : 'Crunches',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.mp4',
       description : 'Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.Exhale and lift your upper body, keeping your head and neck relaxed.Inhale and return to the starting position.'
     },
     {
       title : 'Shoulder Press',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/press.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/press.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/press.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/press.mp4',
       description : 'Stand tall with your feet shoulder-width apart, holding a dumbbell in each hand.Bring your weights to shoulder-level, with your palms facing forward.Extend your arms straight above your shoulders. Keep your back straight and engage your core.Slowly lower the weights back to shoulder level and repeat.'
     },
   ]
@@ -88,38 +88,38 @@ export class WorkoutComponent implements OnInit {
   thirdWeek= [
     {
       title : 'PullUps',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pullups.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pullups.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pullups.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pullups.mp4',
       description :'Hang with your arms fully extended, you can bend your legs at the knee if they’re dragging on the ground.Keep your shoulders back and your core engaged. Then pull up. Focus on enlisting every upper body muscle to aid your upward endeavours. Move slowly upward until your chin is above the bar, then equally slowly downward until your arms are extended again.'
     },
     {
       title : 'Biceps Curl',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/curl.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/curl.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/curl.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/curl.mp4',
       description : 'Start standing with a dumbbell in each hand. Your elbows should rest at your sides and your forearms should extend out in front of your body.Bring the dumbbells all the way up to your shoulders by bending your elbows. Once at the top, hold for a second by squeezing the muscle.Reverse the curl slowly and repeat.'
     },
     {
       title : 'Shoulder Press',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/press.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/press.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/press.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/press.mp4',
       description : 'Stand tall with your feet shoulder-width apart, holding a dumbbell in each hand.Bring your weights to shoulder-level, with your palms facing forward.Extend your arms straight above your shoulders. Keep your back straight and engage your core.Slowly lower the weights back to shoulder level and repeat.'
     },
     {
       title : 'Triceps Dips',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/dips.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/dips.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/dips.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/dips.mp4',
       description : 'Grip the front edges of a chair or bench with your hand. Hover your butt just off and in front of the seat, feet flat, and legs bent so thighs are parallel to the floor. Straighten your arms. ... Lower your body toward the floor until your arms form 90-degree angles.Then, engage your triceps to press back to start.'
     },
     {
       title : 'Crunches',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.mp4',
       description : 'Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.Exhale and lift your upper body, keeping your head and neck relaxed.Inhale and return to the starting position.'
     },
     {
       title : 'Plank',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/plankw.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/plankw.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/plankw.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/plankw.mp4',
       description : 'Reach heels back as you lengthen the crown of your head forward. Ground down into hands, pushing the floor away beneath you. Lengthen through the arms and broaden your chest.'
     },
   ]
@@ -127,50 +127,50 @@ export class WorkoutComponent implements OnInit {
   fourthWeek= [
     {
       title : 'PushUps',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pushups.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pushups.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pushups.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pushups.mp4',
       description :'On floor position your hands slightly wider than your shoulders.Keep a tight core throughout the entire push-up. Inhale as you slowly bend your elbows and lower yourself until your elbows are at a 90-degree angle.Exhale as you begin contracting your chest muscles and pushing back up through your hands to the start position'
     },
     {
       title : 'PullUps',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pullups.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/pullups.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pullups.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/pullups.mp4',
       description :'Hang with your arms fully extended, you can bend your legs at the knee if they’re dragging on the ground.Keep your shoulders back and your core engaged. Then pull up. Focus on enlisting every upper body muscle to aid your upward endeavours. Move slowly upward until your chin is above the bar, then equally slowly downward until your arms are extended again.'
     },
     {
       title : 'Squats',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/squat.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/squat.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/squat.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/squat.mp4',
       description : 'Find a foot stance that feels best for you. Pointing your toes slightly outwards helps.Start by putting your feet shoulder-width apart and pointed about 15 degrees outwards.Tense your abs.“Sit back” – make sure to move your butt backward,Be careful to keep your knees in line with your toes.'
     },
     {
       title : 'Lunges',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/lunges.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/lunges.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/lunges.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/lunges.mp4',
       description : 'Start by standing up tall.Step forward with one foot until your leg reaches a 90-degree angle. ...Lift your front lunging leg to return to the starting position.'
     },
     {
       title : 'Biceps Curl',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/curl.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/curl.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/curl.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/curl.mp4',
       description : 'Start standing with a dumbbell in each hand. Your elbows should rest at your sides and your forearms should extend out in front of your body.Bring the dumbbells all the way up to your shoulders by bending your elbows. Once at the top, hold for a second by squeezing the muscle.Reverse the curl slowly and repeat.'
     },
     {
       title : 'Triceps Dips',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/dips.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/dips.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/dips.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/dips.mp4',
       description : 'Grip the front edges of a chair or bench with your hand. Hover your butt just off and in front of the seat, feet flat, and legs bent so thighs are parallel to the floor. Straighten your arms. ... Lower your body toward the floor until your arms form 90-degree angles.Then, engage your triceps to press back to start.'
     },
     {
       title : 'Crunches',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/crunches.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/crunches.mp4',
       description : 'Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.Exhale and lift your upper body, keeping your head and neck relaxed.Inhale and return to the starting position.'
     },
     {
       title : 'Plank',
-      image : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/plankw.png',
-      media : 'https://fitguides.s3.us-east-1.amazonaws.com/assets/img/plankw.mp4',
+      image : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/plankw.png',
+      media : 'https://fitguidebucket.s3.ap-south-1.amazonaws.com/assets/img/plankw.mp4',
       description : 'Reach heels back as you lengthen the crown of your head forward. Ground down into hands, pushing the floor away beneath you. Lengthen through the arms and broaden your chest.'
     },
   ]

@@ -38,7 +38,7 @@
         }
 
         .button-container{
-        display: inline-block;
+            display: inline-block;
         button{
             border-radius: 50px;
             padding: 9px 25px;
@@ -57,5 +57,35 @@
         .active{
             border-bottom: 0.2rem solid #a88ccd;
         }
+    }
+    @media only screen and (max-width: 650px){
+        .navbar-wrapper{
+            width: 100%;
+            padding: 0.9rem 1rem;
+            .logo-container{
+                margin: 0.4rem;
+            }
+            .link-container{
+                .link-item {
+                    margin: 0 2.5px;
+                    padding-bottom: 0.5rem;
+                    .link {
+                        color: whitesmoke;
+                        margin: 0.4rem 0.7rem;
+                        text-decoration: none;
+                        font-family: 'worksans', sans-serif;
+                        cursor: pointer;
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                       
+                    }
+                }
+            }
+            .button-container{
+                display: none;
+            }
+            
+        }
+        
     }
 }
