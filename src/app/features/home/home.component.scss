@@ -1,7 +1,5 @@
 .container{
     box-sizing: border-box;
-    overflow-y: hidden;
-    background-size: cover;
     .top-sec{
         width: 100vw;
         background-color:#564f6f ;
@@ -22,22 +20,18 @@
                 text-align: center;
                 padding: 10px;
                 .wlc-txt{
-                    font-weight: 600;
-                    font-size: 28px;
                     color: #cdf2fa;
                     margin: 15px 0px;
-                    font-family: 'lato', sans-serif;
                     text-transform: capitalize;
                     letter-spacing: 1.5px;
                     animation: text1 3s;
+                    font: normal normal 600 28px Soleil;
                 }
                 span{
-                    font-weight: 600;
-                    font-size: 22px;
-                    // font-weight: 700;
-                    font-family: 'worksans', sans-serif;
+                    font: normal normal 600 21px Soleil;
                     color: #87c8dc;
                     text-transform: capitalize;
+                    letter-spacing: 1px;
                 }
                 .button-ar{
                     margin: 30px 0px;
@@ -84,15 +78,10 @@
                 .text-area{
                     text-align: center;
                     .wlc-txt{
-                        font-weight: 600;
-                        font-size: 20px;
-                        color: #cdf2fa;
-                        margin: 15px 0px;
+                        font: normal normal 600 20px Soleil;
                     }
                     span{
-                        font-weight: 600;
-                        font-size: 16px;
-                        font-family: 'worksans', sans-serif;
+                        font: normal normal 600 16px Soleil;
                     }
                     .button-ar{
                         margin: 30px 0px;
@@ -128,10 +117,9 @@
                 border: 2px solid;
                 margin: 3rem;
                 border-radius: 15px;
-                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
                 box-shadow:  12px 8px 12px 0 rgba(0, 0, 0, 0.23),
                 -4px -4px 12px 0 rgba(255, 255, 255, 0.4);
-                transition: border 0.5s ease-in-out;
+                transition: border 0.5s ease-in;
                 .program-img{
                     height: 370px;
                     width: 430px;
@@ -146,14 +134,13 @@
                     text-align: center;
                     padding: 15px;
                     h3{
-                        font-weight: 600;
-                        font-family: 'lato', sans-serif;
+                        font: normal normal 600 20px Soleil;  
                         letter-spacing: 2px;
                     }
                 }
             }
             .program-card:hover{
-                border: 5px solid violet;
+                border: 5px solid #564f6f;
                 cursor: pointer;
                 box-shadow:  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
                 -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
@@ -204,25 +191,21 @@
             .left-side{
                 width: 50%;
                 text-align: center;
-                .txt1{
-                    color: #f9a04e;
+                h1{
                     margin: 25px 5px;
                     font-weight: 700;
                     letter-spacing: 4px;
+                }
+                .txt1{
+                    color: #f9a04e;
                     animation: text1 3s;
                 }
                 .txt2{
                     color: #564f6f;
-                    margin: 25px 5px;
-                    font-weight: 700;
-                    letter-spacing: 4px;
                     animation: text2 3s;
                 }
                 .txt3{
                     color: #f9a04e;
-                    margin: 25px 5px;
-                    font-weight: 700;
-                    letter-spacing: 4px;
                     animation: text3 6s;
                 }
             }
@@ -260,15 +243,7 @@
                 flex-wrap: wrap;
                 .left-side{
                     width: 250px;
-                    .txt1{
-                        font-size: 18px;
-                        margin: 15px 5px;
-                    }
-                    .txt2{
-                        font-size: 18px;
-                        margin: 15px 5px;
-                    }
-                    .txt3{
+                    h1{
                         font-size: 18px;
                         margin: 15px 5px;
                     }
@@ -284,7 +259,6 @@
             }
         }
     }
-
 
     .mentor-sec{
         width: 100vw;
@@ -316,7 +290,7 @@
                     }
                 }
                 .mentor-img:hover{
-                    border: 5px solid violet;
+                    border: 5px solid #564f6f;
                     
                 }
                 .mentor-title{

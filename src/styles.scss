@@ -14,3 +14,48 @@ body {
     width: 100vw;
     overflow-x: hidden;
 }
+
+@font-face {
+    font-family: 'Soleil';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Soleil'), url('https://fonts.cdnfonts.com/s/48710/SoleilRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Soleil';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Soleil'), url('https://fonts.cdnfonts.com/s/48710/SoleilBook.woff') format('woff');
+}
+
+
+.custom-shape-divider-bottom-1622102515 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1622102515 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 99px;
+}
+
+.custom-shape-divider-bottom-1622102515 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.stick-back{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    img{
+        opacity: 0.3;
+    }
+}

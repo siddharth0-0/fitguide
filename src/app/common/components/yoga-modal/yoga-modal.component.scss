@@ -48,6 +48,21 @@
             }
         }
     }
+    @media only screen and (max-width: 650px){
+        .yoga-pose-box{
+            width: 95%;
+            height: 350px;
+            .pose-img{
+                width: 50%;
+            }
+            .pose-description{
+                width: 50%;
+                h3{
+                   font-size: small;
+                }
+            }
+        }
+    }
 
     .modal-background{
         width: 100%;

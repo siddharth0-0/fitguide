@@ -4,7 +4,7 @@
         position: fixed;
         width: 100%;
         background-color: #333;
-        padding: 0.9rem 1.5rem;
+        padding: 1rem 1.5rem;
         transition: all 0.5s ease-in-out;
         z-index: 10000;
         display: flex;
@@ -14,6 +14,8 @@
             margin: 0.5rem;
             cursor: pointer;
             color: #845ec2;
+            font: normal normal 600 15px/12px Soleil;
+            letter-spacing: 1.5px;
         }
 
         .link-container {
@@ -28,11 +30,9 @@
                     color: whitesmoke;
                     margin: 0.4rem 1rem;
                     text-decoration: none;
-                    font-family: 'worksans', sans-serif;
                     cursor: pointer;
-                    font-size: 17px;
                     letter-spacing: 1.2px;
-                   
+                    font: normal normal 500 16px Soleil;
                 }
             }
         }
@@ -40,14 +40,14 @@
         .button-container{
             display: inline-block;
         button{
-            border-radius: 50px;
+            border-radius: 25px;
             padding: 9px 25px;
             border: none;
             cursor: pointer;
-            font-weight: 500;
             background-image: linear-gradient(to right bottom, #b39cd0, #a88ccd, #9c7dc9, #906dc6, #845ec2);
-            font-size: 14px;  
             margin: 0px 10px;
+            font: normal normal 500 14px Soleil;
+            letter-spacing: 0.80px;
         }
         }
         .link-item:hover {
@@ -61,23 +61,17 @@
     @media only screen and (max-width: 650px){
         .navbar-wrapper{
             width: 100%;
-            padding: 0.9rem 1rem;
+            padding: 1rem;
             .logo-container{
-                margin: 0.4rem;
+                margin: 0.5rem;
             }
             .link-container{
                 .link-item {
                     margin: 0 2.5px;
-                    padding-bottom: 0.5rem;
+                    padding-bottom: 0.6rem;
                     .link {
-                        color: whitesmoke;
                         margin: 0.4rem 0.7rem;
-                        text-decoration: none;
-                        font-family: 'worksans', sans-serif;
-                        cursor: pointer;
                         font-size: 14px;
-                        letter-spacing: 1px;
-                       
                     }
                 }
             }
@@ -86,6 +80,5 @@
             }
             
         }
-        
     }
 }
