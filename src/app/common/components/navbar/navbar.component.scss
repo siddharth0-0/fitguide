@@ -13,9 +13,11 @@
         .logo-container{
             margin: 0.5rem;
             cursor: pointer;
-            color: #845ec2;
+            color: #FFF;
             font: normal normal 600 15px/12px Soleil;
-            letter-spacing: 1.5px;
+            letter-spacing: 3.5px;
+            font-family: Lato;
+            text-transform: uppercase;
         }
 
         .link-container {
@@ -27,12 +29,13 @@
                 margin: 0 1.5vw;
                 padding-bottom: 0.5rem;
                 .link {
-                    color: whitesmoke;
+                    color: #FFF;
                     margin: 0.4rem 1rem;
                     text-decoration: none;
                     cursor: pointer;
-                    letter-spacing: 1.2px;
-                    font: normal normal 500 16px Soleil;
+                    letter-spacing: 1px;
+                    font-family: Lato;
+                    text-transform: capitalize;
                 }
             }
         }
@@ -40,14 +43,15 @@
         .button-container{
             display: inline-block;
         button{
-            border-radius: 25px;
-            padding: 9px 25px;
-            border: none;
+            font-size: 13px;
+            background: #564f6f;
+            border-radius: 6px;
+            padding: 8px 16px;
+            color: #fff;
+            border: 1px solid #564f6f;
             cursor: pointer;
-            background-image: linear-gradient(to right bottom, #b39cd0, #a88ccd, #9c7dc9, #906dc6, #845ec2);
             margin: 0px 10px;
-            font: normal normal 500 14px Soleil;
-            letter-spacing: 0.80px;
+            font-family: Lato;
         }
         }
         .link-item:hover {

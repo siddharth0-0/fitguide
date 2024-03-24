@@ -20,18 +20,20 @@
                 text-align: center;
                 padding: 10px;
                 .wlc-txt{
-                    color: #cdf2fa;
+                    color: #FFF;
                     margin: 15px 0px;
                     text-transform: capitalize;
-                    letter-spacing: 1.5px;
+                    letter-spacing: 1px;
                     animation: text1 3s;
-                    font: normal normal 600 28px Soleil;
+                    font-family: Lato;
+                    font-size: 28px;
                 }
                 span{
-                    font: normal normal 600 21px Soleil;
                     color: #87c8dc;
                     text-transform: capitalize;
                     letter-spacing: 1px;
+                    font-family: Lato;
+                    font-size: 21px;
                 }
                 .button-ar{
                     margin: 30px 0px;
@@ -106,6 +108,7 @@
         padding: 15px;
         .program-head{
             text-align: center;
+            font-family: Lato;
             color: #f5970b;
         }
         .program-area{
@@ -136,6 +139,7 @@
                     h3{
                         font: normal normal 600 20px Soleil;  
                         letter-spacing: 2px;
+                        font-family: Lato;
                     }
                 }
             }
